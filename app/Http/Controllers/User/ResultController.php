@@ -508,6 +508,8 @@ class ResultController extends Controller
 
         $getDiagnostico = array_search($getMaxNumber, $lista_enfermedades);
 
+        //dd($getDiagnostico);
+
 
         //Hipotiroidismo
         if ($getDiagnostico == "hipotiroidismo") {

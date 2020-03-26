@@ -969,6 +969,7 @@
                 $('#afectaciones').show();
             } else {
                 $('#dolores_musculares').show();
+                $('#dolores_garganta').show(); //Pregunta 18
             }
 
         });
@@ -981,6 +982,7 @@
                 $('#dolor_cabeza').show();
             } else {
                 $('#dolor_pecho').show();
+                $('#dolores_garganta').show(); //Pregunta 18
             }
             $('#').show();
         });
@@ -992,8 +994,9 @@
 
             if(debilidad == "yes"){
                 $('#dolor_pecho').show();
+                $('#suicidio').show(); // Pregunta 26
             } else {
-                alert("Marcó que no");
+                $('#animo').show(); //Pregunta 30
             }
         });
 
@@ -1022,7 +1025,9 @@
             agitado = $(this).val();
             if(debilidad == "yes"){
                 $('#validar').show();
+                $('#cansancio').show();
             } else {
+                $('#frecuencia_dolor_de_cabeza').show();
                 $('#cansancio').show();
             }
         });
@@ -1035,6 +1040,7 @@
                 $('#frio').show();
             } else {
                 $('#unias').show();
+                $('#hiperactividad').show(); //Pregunta 16
             }
         });
 
@@ -1078,8 +1084,10 @@
             //Obtener el tipo de lección 
             cansancio = $(this).val();
             if(estrenimiento == "yes"){
+                $('#fisico').show();
                 $('#enojo').show();
             } else {
+                $('#fisico').show();
                 $('#vomitar').show();
             }
         });
@@ -1219,6 +1227,7 @@
                 $('#placer').show(); // Pregunta 24
 
             } else {
+                $('#suicidio').show(); // Pregunta 26
                 //$('#dolores_garganta').show(); //Pregunta 29
             }
         });
