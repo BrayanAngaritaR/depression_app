@@ -43,7 +43,7 @@
                         </div>
 
                         <!--Pregunta 2-->
-                        <div class="form-group row" id="afectaciones" >
+                        <div class="form-group row" id="afectaciones" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">¿Sientes afectaciones en la piel?</label>
 
                             <div class="col-md-6">
@@ -68,7 +68,7 @@
                         </div>
 
                         <!--Pregunta 3-->
-                        <div class="form-group row" id="dolor_cabeza" >
+                        <div class="form-group row" id="dolor_cabeza" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sufres de dolores de cabeza a menudo?
                             </label>
@@ -95,7 +95,7 @@
                         </div>
 
                         <!--Pregunta 4-->
-                        <div class="form-group row" id="dolor_pecho" >
+                        <div class="form-group row" id="dolor_pecho" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">¿Sufres de dolor en el pecho?</label>
 
                             <div class="col-md-6">
@@ -120,7 +120,7 @@
                         </div>
 
                         <!--Pregunta 5-->
-                        <div class="form-group row" id="unias" >
+                        <div class="form-group row" id="unias" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que tus uñas se quiebran?
                             </label>
@@ -128,12 +128,12 @@
                             <div class="col-md-6">
                                 <fieldset>
                                 	<div class="custom-control custom-radio custom-control-inline">
-										<input type="radio" id="unias_si" name="unias" class="custom-control-input" value="yes"> 
+										<input type="radio" id="unias_si" name="unias" class="custom-control-input"> 
 										<label class="custom-control-label" for="unias_si">Sí</label>
 									</div>
 
 									<div class="custom-control custom-radio custom-control-inline">
-										<input type="radio" id="unias_no" name="unias" class="custom-control-input" value="yes">
+										<input type="radio" id="unias_no" name="unias" class="custom-control-input" value="no">
 										<label class="custom-control-label" for="unias_no">No</label>
 									</div>
                                 </fieldset>
@@ -147,7 +147,7 @@
                         </div>
 
                         <!--Pregunta 6-->
-                        <div class="form-group row" id="agitado" >
+                        <div class="form-group row" id="agitado" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te sientes agitado?
                             </label>
@@ -174,7 +174,7 @@
                         </div>
 
                         <!--Pregunta 7-->
-                        <div class="form-group row" id="dolores_musculares" >
+                        <div class="form-group row" id="dolores_musculares" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes dolores musculares?
                             </label>
@@ -201,7 +201,7 @@
                         </div>
 
                         <!--Pregunta 8-->
-                        <div class="form-group row" id="frio" >
+                        <div class="form-group row" id="frio" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te da frío regularmente?
                             </label>
@@ -228,7 +228,7 @@
                         </div>
 
                         <!--Pregunta 9-->
-                        <div class="form-group row" id="latidos" >
+                        <div class="form-group row" id="latidos" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que tu corazón late lentamente?
                             </label>
@@ -255,7 +255,7 @@
                         </div>
 
                         <!--Pregunta 10-->
-                        <div class="form-group row" id="estrenimiento" >
+                        <div class="form-group row" id="estrenimiento" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes estreñimiento? 
                             </label>
@@ -282,7 +282,7 @@
                         </div>
 
                         <!--Pregunta 11-->
-                        <div class="form-group row" id="cansancio" >
+                        <div class="form-group row" id="cansancio" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te sientes cansado física y mentalmente? 
                             </label>
@@ -309,7 +309,7 @@
                         </div>
 
                         <!--Pregunta 12-->
-                        <div class="form-group row" id="enojo" >
+                        <div class="form-group row" id="enojo" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te enojas con facilidad? 
                             </label>
@@ -336,7 +336,7 @@
                         </div>
 
                         <!--Pregunta 13-->
-                        <div class="form-group row" id="llorar" >
+                        <div class="form-group row" id="llorar" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Lloras con frecuencia? 
                             </label>
@@ -363,7 +363,7 @@
                         </div>
 
                         <!--Pregunta 14-->
-                        <div class="form-group row" id="fisico" >
+                        <div class="form-group row" id="fisico" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te gusta tu apariencia física?
                             </label>
@@ -390,7 +390,7 @@
                         </div>
 
                         <!--Pregunta 15-->
-                        <div class="form-group row" id="culpa" >
+                        <div class="form-group row" id="culpa" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que es tu culpa cuando las cosas salen mal? 
                             </label>
@@ -417,7 +417,7 @@
                         </div>
 
                         <!--Pregunta 16-->
-                        <div class="form-group row" id="hiperactividad" >
+                        <div class="form-group row" id="hiperactividad" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que no puedes quedarte quieto (Hiperactividad)? 
                             </label>
@@ -444,7 +444,7 @@
                         </div>
 
                         <!--Pregunta 17-->
-                        <div class="form-group row" id="ritmo" >
+                        <div class="form-group row" id="ritmo" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿A qué ritmo hablas? 
                             </label>
@@ -471,7 +471,7 @@
                         </div>
 
                         <!--Pregunta 18-->
-                        <div class="form-group row" id="dolores_garganta" >
+                        <div class="form-group row" id="dolores_garganta" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Te han dado dolores de garganta? 
                             </label>
@@ -498,7 +498,7 @@
                         </div>
 
                         <!--Pregunta X-->
-                        <div class="form-group row" id="participacion" >
+                        <div class="form-group row" id="participacion" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Deseas participar en las actividades que te proponen? 
                             </label>
@@ -525,7 +525,7 @@
                         </div>
 
                         <!--Pregunta Y-->
-                        <div class="form-group row" id="interes" >
+                        <div class="form-group row" id="interes" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Le perdiste el interés a las cosas? 
                             </label>
@@ -552,7 +552,7 @@
                         </div>
 
                         <!--Pregunta 19-->
-                        <div class="form-group row" id="frecuencia_dolor_de_cabeza" >
+                        <div class="form-group row" id="frecuencia_dolor_de_cabeza" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Cada cuánto te está doliendo la cabeza?
                             </label>
@@ -579,7 +579,7 @@
                         </div>
 
                         <!--Pregunta 20-->
-                        <div class="form-group row" id="mantener_concentracion" >
+                        <div class="form-group row" id="mantener_concentracion" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Es difícil que puedas mantener tu concentración?
                             </label>
@@ -609,7 +609,7 @@
                         <!--Pregunta 21-->
 
                         <!--Pregunta 22-->
-                        <div class="form-group row" id="desorden" >
+                        <div class="form-group row" id="desorden" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que necesitas conseguir más “cosas” para guardar?
                             </label>
@@ -636,7 +636,7 @@
                         </div>
 
                         <!--Pregunta 23-->
-                        <div class="form-group row" id="acumular" >
+                        <div class="form-group row" id="acumular" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Acumulas cosas que no necesitas?
                             </label>
@@ -663,7 +663,7 @@
                         </div>
 
                         <!--Pregunta 24-->
-                        <div class="form-group row" id="placer" >
+                        <div class="form-group row" id="placer" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes placer?
                             </label>
@@ -690,7 +690,7 @@
                         </div>
 
                         <!--Pregunta 25-->
-                        <div class="form-group row" id="vomitar" >
+                        <div class="form-group row" id="vomitar" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Vomitas a menudo?
                             </label>
@@ -717,7 +717,7 @@
                         </div>
 
                         <!--Pregunta 26-->
-                        <div class="form-group row" id="suicidio" >
+                        <div class="form-group row" id="suicidio" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Piensas en cómo sería la vida sin ti?
                             </label>
@@ -744,7 +744,7 @@
                         </div>
 
                         <!--Pregunta 27-->
-                        <div class="form-group row" id="agresion" >
+                        <div class="form-group row" id="agresion" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Te gustaría hacerle daño a alguien?
                             </label>
@@ -771,7 +771,7 @@
                         </div>
 
                         <!--Pregunta 28-->
-                        <div class="form-group row" id="dolor_musculos" >
+                        <div class="form-group row" id="dolor_musculos" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                             	¿Sientes que los músculos te duelen?
                             </label>
@@ -798,7 +798,7 @@
                         </div>
 
                         <!--Pregunta 29-->
-                        <div class="form-group row" id="aseo" >
+                        <div class="form-group row" id="aseo" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Cada cuánto haces aseo?
                             </label>
@@ -825,7 +825,7 @@
                         </div>
 
                         <!--Pregunta 30-->
-                        <div class="form-group row" id="dormir" >
+                        <div class="form-group row" id="dormir" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Te duermes fácil?
                             </label>
@@ -852,7 +852,7 @@
                         </div>
 
                         <!--Pregunta 31-->
-                        <div class="form-group row" id="fatiga" >
+                        <div class="form-group row" id="fatiga" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Te sientes cansado, con poca energía y tienes un fuerte deseo de dormir?
                             </label>
@@ -879,7 +879,7 @@
                         </div>
 
                         <!--Pregunta 32-->
-                        <div class="form-group row" id="gula" >
+                        <div class="form-group row" id="gula" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Comes sin parar?
                             </label>
@@ -906,7 +906,7 @@
                         </div>
 
                         <!--Pregunta 32-->
-                        <div class="form-group row" id="peso_ideal" >
+                        <div class="form-group row" id="peso_ideal" style="display: none;">
                             <label for="name" class="col-md-4 col-form-label text-md-right">
                                 ¿Crees que tienes "El peso ideal"?
                             </label>
@@ -955,5 +955,350 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
+
+<script>
+
+
+    $(function () {
+        //Pregunta 1
+        $('input[name=debilidad]').change(function(){
+
+            debilidad = $(this).val();
+
+            if(debilidad == "yes"){
+                $('#afectaciones').show();
+            } else {
+                $('#dolores_musculares').show();
+            }
+
+        });
+
+        //Pregunta 2
+        $('input[name=afectaciones]').change(function(){
+            //Obtener el tipo de lección 
+            afectaciones = $(this).val();
+            if(afectaciones == "yes"){
+                $('#dolor_cabeza').show();
+            } else {
+                $('#dolor_pecho').show();
+            }
+            $('#').show();
+        });
+
+        //Pregunta 3
+        $('input[name=dolor_cabeza]').change(function(){
+            //Obtener el tipo de lección 
+            estrenimiento = $(this).val();
+
+            if(debilidad == "yes"){
+                $('#dolor_pecho').show();
+            } else {
+                alert("Marcó que no");
+            }
+        });
+
+        //Pregunta 4
+        $('input[name=dolor_pecho]').change(function(){
+            //Obtener el tipo de lección 
+            dolor_pecho = $(this).val();
+
+            if(debilidad == "yes"){
+                $('#unias').show();
+            } else {
+                $('#dolores_musculares').show();
+            }
+        });
+
+        //Pregunta 5
+        $('input[name=unias]').change(function(){
+            //Obtener el tipo de lección 
+            afectaciones = $(this).val();
+            $('#agitado').show();
+        });
+
+        //Pregunta 6
+        $('input[name=agitado]').change(function(){
+            //Obtener el tipo de lección 
+            agitado = $(this).val();
+            if(debilidad == "yes"){
+                $('#validar').show();
+            } else {
+                $('#cansancio').show();
+            }
+        });
+
+        //Pregunta 7
+        $('input[name=dolores_musculares]').change(function(){
+            //Obtener el tipo de lección 
+            dolores_musculares = $(this).val();
+            if(dolores_musculares == "yes"){
+                $('#frio').show();
+            } else {
+                $('#unias').show();
+            }
+        });
+
+        //Pregunta 8
+        $('input[name=frio]').change(function(){
+            //Obtener el tipo de lección 
+            frio = $(this).val();
+            if(frio == "yes"){
+                $('#latidos').show();
+            } else {
+                $('#frecuencia_dolor_de_cabeza').show();
+            }
+        });
+
+        //Pregunta 9
+        $('input[name=latidos]').change(function(){
+            //Obtener el tipo de lección 
+            dolores_musculares = $(this).val();
+            if(dolores_musculares == "yes"){
+                $('#validar').show();
+            } else {
+                $('#frecuencia_dolor_de_cabeza').show();
+            }
+        });
+
+        //Pregunta 10
+
+        $('input[name=estrenimiento]').change(function(){
+            //Obtener el tipo de lección 
+            estrenimiento = $(this).val();
+            if(estrenimiento == "yes"){
+                $('#validar').show();
+            } else {
+                $('#vomitar').show(); //Pregunta 29
+            }
+        });
+
+        //Pregunta 11
+
+        $('input[name=cansancio]').change(function(){
+            //Obtener el tipo de lección 
+            cansancio = $(this).val();
+            if(estrenimiento == "yes"){
+                $('#enojo').show();
+            } else {
+                $('#vomitar').show();
+            }
+        });
+
+        //Pregunta 12
+
+        $('input[name=enojo]').change(function(){
+            //Obtener el tipo de lección 
+            cansancio = $(this).val();
+            if(enojo == "yes"){
+                $('#llorar').show();
+            } else {
+                $('#culpa').show();
+            }
+        });
+
+        //Pregunta 13
+
+        $('input[name=llorar]').change(function(){
+            //Obtener el tipo de lección 
+            llorar = $(this).val();
+            if(llorar == "yes"){
+                $('#fisico').show();
+            } else {
+                $('#culpa').show();
+            }
+        });
+
+        //Pregunta 14
+
+        $('input[name=fisico]').change(function(){
+            //Obtener el tipo de lección 
+            fisico = $(this).val();
+            if(fisico == "yes"){
+                $('#validar').show(); //Decir que sufre de DISTIMIA
+            } else {
+                $('#culpa').show();
+            }
+        });
+
+        //Pregunta 15
+
+        $('input[name=culpa]').change(function(){
+            //Obtener el tipo de lección 
+            culpa = $(this).val();
+            if(culpa == "yes"){
+                $('#hiperactividad').show(); //Pregunta 16
+            } else {
+                $('#placer').show(); //Pregunta 24
+            }
+        });
+
+        //Pregunta 16
+
+        $('input[name=hiperactividad]').change(function(){
+            //Obtener el tipo de lección 
+            hiperactividad = $(this).val();
+            if(hiperactividad == "yes"){
+                $('#ritmo').show(); //Pregunta 17
+            } else {
+                $('#ritmo').show(); //Pregunta 17
+            }
+        });
+
+        //Pregunta 17 - Ritmo
+
+        $('input[name=ritmo]').change(function(){
+            //Obtener el tipo de lección 
+            ritmo = $(this).val();
+            if(ritmo == "yes"){
+                $('#validar').show(); // TRASTORNO BIPOLAR:
+            } else {
+                $('#dolores_garganta').show(); //Pregunta 18
+            }
+        });
+
+        //Pregunta 18 - Dolores de garganta
+
+        $('input[name=dolores_garganta]').change(function(){
+            //Obtener el tipo de lección 
+            dolores_garganta = $(this).val();
+            if(dolores_garganta == "yes"){
+                $('#frecuencia_dolor_de_cabeza').show(); // Pregunta 19
+            } else {
+                alert("Pregunta 28");
+                //$('#dolores_garganta').show(); //Pregunta 28
+            }
+        });
+
+        //Pregunta 19 - Frecuencia del dolor de cabeza
+
+        $('input[name=frecuencia_dolor_de_cabeza]').change(function(){
+            //Obtener el tipo de lección 
+            frecuencia_dolor_de_cabeza = $(this).val();
+            if(frecuencia_dolor_de_cabeza == "yes"){
+                $('#mantener_concentracion').show(); // Pregunta 20
+            } else {
+                alert("Pregunta 11");
+                //$('#dolores_garganta').show(); //Pregunta 24
+            }
+        });
+
+        //Pregunta 20 - Mantener la concentración
+
+        $('input[name=mantener_concentracion]').change(function(){
+            //Obtener el tipo de lección 
+            mantener_concentracion = $(this).val();
+            if(mantener_concentracion == "yes"){
+                $('#validar').show(); // Diagnosticar Encefalomielitis
+
+            } else {
+                $('#desorden').show(); //Pregunta 22
+            }
+        });
+
+        //Pregunta 21
+
+        //Pregunta 22
+
+        $('input[name=desorden]').change(function(){
+            //Obtener el tipo de lección 
+            desorden = $(this).val();
+            if(desorden == "yes"){
+                $('#acumular').show(); //Pregunta 23
+            } else {
+                alert("Pregunta 24");
+                //$('#dolores_garganta').show(); //Pregunta 22
+            }
+        });
+
+        //Pregunta 23 - Acumular
+
+        $('input[name=acumular]').change(function(){
+            //Obtener el tipo de lección 
+            acumular = $(this).val();
+            if(acumular == "yes"){
+                $('#placer').show(); // Pregunta 24
+
+            } else {
+                //$('#dolores_garganta').show(); //Pregunta 29
+            }
+        });
+
+        //Pregunta 24 - Placer
+
+        $('input[name=placer]').change(function(){
+            //Obtener el tipo de lección 
+            placer = $(this).val();
+            if(placer == "yes"){
+                $('#suicidio').show(); // Pregunta 26
+
+            } else {
+                $('#suicidio').show(); // Pregunta 26
+            }
+        });
+
+        //Pregunta 25 - Placer
+
+        $('input[name=vomitar]').change(function(){
+            //Obtener el tipo de lección 
+            vomitar = $(this).val();
+            if(vomitar == "yes"){
+                $('#validar').show(); // Diagonostica Hipotiroidismo
+
+            } else {
+                $('#cansancio').show(); // Pregunta 11
+            }
+        });
+
+        //Pregunta 26 - Suicidio
+
+        $('input[name=suicidio]').change(function(){
+            //Obtener el tipo de lección 
+            suicidio = $(this).val();
+            if(suicidio == "yes"){
+                $('#validar').show(); // Decir que tiene depresión
+
+            } else {
+                $('#vomitar').show(); //Pregunta 29
+            }
+        });
+
+        //Pregunta 28 - Dolor en los músculos
+
+        $('input[name=dolor_musculos]').change(function(){
+            //Obtener el tipo de lección 
+            dolor_musculos = $(this).val();
+            if(dolor_musculos == "yes"){
+                $('#mantener_concentracion').show(); //Pregunta 20
+            } else {
+                $('#vomitar').show(); //Pregunta 29
+            }
+        });
+
+        //Pregunta 29 - Hacer aseo
+
+        $('input[name=aseo]').change(function(){
+            //Obtener el tipo de lección 
+            aseo = $(this).val();
+            if(aseo == "yes"){
+                $('#animo').show(); //Pregunta 30
+            } else {
+                $('#vomitar').show(); //Pregunta 29
+            }
+        });
+
+        //Pregunta 30 - Estado de ánimo
+
+        $('input[name=animo]').change(function(){
+            //Obtener el tipo de lección 
+            animo = $(this).val();
+            if(animo == "yes"){
+                $('#validar').show(); //Depresión
+            } else {
+                $('#suicidio').show(); //Pregunta 26
+            }
+        });
+    })
+    
+</script>
 
 @endpush

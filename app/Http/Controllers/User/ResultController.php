@@ -524,7 +524,16 @@ class ResultController extends Controller
                         <p>Desarrollo: crecimiento lento o pubertad tardía.</p>
                         <p>Pelo: caída del pelo o sequedad.</p>
                         <p>También comunes: agrandamiento de la tiroides, aumento de peso, colesterol alto, disfunción sexual, estreñimiento, frecuencia cardíaca lenta, irritabilidad, lentitud, piel seca, sangrado uterino irregular, sensibilidad al frío o uñas quebradizas</p>";
+
+            $tratamiento = "
+            <p>El tratamiento consiste en hormonas</p>
+            <p>El tratamiento consiste en el reemplazo de hormona tiroidea.</p>";
+
+            $more_info = "https://www.google.com/search?q=hipotiroidismo&rlz=1C5CHFA_enCO890CO890&oq=hipotiroidismo&aqs=chrome..69i57j69i59j0l5j69i61.279j0j7&sourceid=chrome&ie=UTF-8#wptab=s:H4sIAAAAAAAAAONgVuLQz9U3yEg3NHzE6Mgt8PLHPWEpi0lrTl5jNOLiCs7IL3fNK8ksqRRS4WKDsqS4eKTgmjQYpLi44DyeXUwCHqmJOSUZIUWpiSW5qXklxYtYFUKKEksSczOBvPxihYLEokQFj8yC_JLMovzMlMzi3HwAhv-lSYYAAAA";
+
         }
+
+
 
         //Anemia
         if ($getDiagnostico == "anemia") {
