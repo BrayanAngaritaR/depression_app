@@ -1172,7 +1172,7 @@
             if(dolores_garganta == "yes"){
                 $('#frecuencia_dolor_de_cabeza').show(); // Pregunta 19
             } else {
-                alert("Pregunta 28");
+                $('#hiperactividad').show(); //Pregunta 16
                 //$('#dolores_garganta').show(); //Pregunta 28
             }
         });
@@ -1185,7 +1185,8 @@
             if(frecuencia_dolor_de_cabeza == "yes"){
                 $('#mantener_concentracion').show(); // Pregunta 20
             } else {
-                alert("Pregunta 11");
+                $('#culpa').show(); //Pregunta 16
+                $('#hiperactividad').show(); //Pregunta 16
                 //$('#dolores_garganta').show(); //Pregunta 24
             }
         });
@@ -1197,6 +1198,7 @@
             mantener_concentracion = $(this).val();
             if(mantener_concentracion == "yes"){
                 $('#validar').show(); // Diagnosticar Encefalomielitis
+                $('#hiperactividad').show(); //Pregunta 16
 
             } else {
                 $('#desorden').show(); //Pregunta 22
@@ -1213,8 +1215,7 @@
             if(desorden == "yes"){
                 $('#acumular').show(); //Pregunta 23
             } else {
-                alert("Pregunta 24");
-                //$('#dolores_garganta').show(); //Pregunta 22
+                $('#dolores_garganta').show(); //Pregunta 22
             }
         });
 
