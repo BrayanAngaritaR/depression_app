@@ -961,7 +961,7 @@
 
     $(function () {
         //Pregunta 1
-        $('input[name=debilidad]').change(function(){
+        $('input[name=debilidad]').on().change(function(){
 
             debilidad = $(this).val();
 
@@ -974,7 +974,7 @@
         });
 
         //Pregunta 2
-        $('input[name=afectaciones]').change(function(){
+        $('input[name=afectaciones]').on().change(function(){
             //Obtener el tipo de lección 
             afectaciones = $(this).val();
             if(afectaciones == "yes"){
@@ -986,7 +986,7 @@
         });
 
         //Pregunta 3
-        $('input[name=dolor_cabeza]').change(function(){
+        $('input[name=dolor_cabeza]').on().change(function(){
             //Obtener el tipo de lección 
             estrenimiento = $(this).val();
 
@@ -998,7 +998,7 @@
         });
 
         //Pregunta 4
-        $('input[name=dolor_pecho]').change(function(){
+        $('input[name=dolor_pecho]').on().change(function(){
             //Obtener el tipo de lección 
             dolor_pecho = $(this).val();
 
@@ -1010,14 +1010,14 @@
         });
 
         //Pregunta 5
-        $('input[name=unias]').change(function(){
+        $('input[name=unias]').on().change(function(){
             //Obtener el tipo de lección 
             afectaciones = $(this).val();
             $('#agitado').show();
         });
 
         //Pregunta 6
-        $('input[name=agitado]').change(function(){
+        $('input[name=agitado]').on().change(function(){
             //Obtener el tipo de lección 
             agitado = $(this).val();
             if(debilidad == "yes"){
@@ -1028,7 +1028,7 @@
         });
 
         //Pregunta 7
-        $('input[name=dolores_musculares]').change(function(){
+        $('input[name=dolores_musculares]').on().change(function(){
             //Obtener el tipo de lección 
             dolores_musculares = $(this).val();
             if(dolores_musculares == "yes"){
@@ -1039,7 +1039,7 @@
         });
 
         //Pregunta 8
-        $('input[name=frio]').change(function(){
+        $('input[name=frio]').on().change(function(){
             //Obtener el tipo de lección 
             frio = $(this).val();
             if(frio == "yes"){
@@ -1050,7 +1050,7 @@
         });
 
         //Pregunta 9
-        $('input[name=latidos]').change(function(){
+        $('input[name=latidos]').on().change(function(){
             //Obtener el tipo de lección 
             dolores_musculares = $(this).val();
             if(dolores_musculares == "yes"){
@@ -1062,7 +1062,7 @@
 
         //Pregunta 10
 
-        $('input[name=estrenimiento]').change(function(){
+        $('input[name=estrenimiento]').on().change(function(){
             //Obtener el tipo de lección 
             estrenimiento = $(this).val();
             if(estrenimiento == "yes"){
@@ -1074,7 +1074,7 @@
 
         //Pregunta 11
 
-        $('input[name=cansancio]').change(function(){
+        $('input[name=cansancio]').on().change(function(){
             //Obtener el tipo de lección 
             cansancio = $(this).val();
             if(estrenimiento == "yes"){
@@ -1086,7 +1086,7 @@
 
         //Pregunta 12
 
-        $('input[name=enojo]').change(function(){
+        $('input[name=enojo]').on().change(function(){
             //Obtener el tipo de lección 
             cansancio = $(this).val();
             if(enojo == "yes"){
@@ -1098,7 +1098,7 @@
 
         //Pregunta 13
 
-        $('input[name=llorar]').change(function(){
+        $('input[name=llorar]').on().change(function(){
             //Obtener el tipo de lección 
             llorar = $(this).val();
             if(llorar == "yes"){
@@ -1110,7 +1110,7 @@
 
         //Pregunta 14
 
-        $('input[name=fisico]').change(function(){
+        $('input[name=fisico]').on().change(function(){
             //Obtener el tipo de lección 
             fisico = $(this).val();
             if(fisico == "yes"){
@@ -1122,7 +1122,7 @@
 
         //Pregunta 15
 
-        $('input[name=culpa]').change(function(){
+        $('input[name=culpa]').on().change(function(){
             //Obtener el tipo de lección 
             culpa = $(this).val();
             if(culpa == "yes"){
@@ -1134,7 +1134,7 @@
 
         //Pregunta 16
 
-        $('input[name=hiperactividad]').change(function(){
+        $('input[name=hiperactividad]').on().change(function(){
             //Obtener el tipo de lección 
             hiperactividad = $(this).val();
             if(hiperactividad == "yes"){
@@ -1146,7 +1146,7 @@
 
         //Pregunta 17 - Ritmo
 
-        $('input[name=ritmo]').change(function(){
+        $('input[name=ritmo]').on().change(function(){
             //Obtener el tipo de lección 
             ritmo = $(this).val();
             if(ritmo == "yes"){
@@ -1158,7 +1158,7 @@
 
         //Pregunta 18 - Dolores de garganta
 
-        $('input[name=dolores_garganta]').change(function(){
+        $('input[name=dolores_garganta]').on().change(function(){
             //Obtener el tipo de lección 
             dolores_garganta = $(this).val();
             if(dolores_garganta == "yes"){
@@ -1171,7 +1171,7 @@
 
         //Pregunta 19 - Frecuencia del dolor de cabeza
 
-        $('input[name=frecuencia_dolor_de_cabeza]').change(function(){
+        $('input[name=frecuencia_dolor_de_cabeza]').on().change(function(){
             //Obtener el tipo de lección 
             frecuencia_dolor_de_cabeza = $(this).val();
             if(frecuencia_dolor_de_cabeza == "yes"){
@@ -1184,7 +1184,7 @@
 
         //Pregunta 20 - Mantener la concentración
 
-        $('input[name=mantener_concentracion]').change(function(){
+        $('input[name=mantener_concentracion]').on().change(function(){
             //Obtener el tipo de lección 
             mantener_concentracion = $(this).val();
             if(mantener_concentracion == "yes"){
@@ -1199,7 +1199,7 @@
 
         //Pregunta 22
 
-        $('input[name=desorden]').change(function(){
+        $('input[name=desorden]').on().change(function(){
             //Obtener el tipo de lección 
             desorden = $(this).val();
             if(desorden == "yes"){
@@ -1212,7 +1212,7 @@
 
         //Pregunta 23 - Acumular
 
-        $('input[name=acumular]').change(function(){
+        $('input[name=acumular]').on().change(function(){
             //Obtener el tipo de lección 
             acumular = $(this).val();
             if(acumular == "yes"){
@@ -1225,7 +1225,7 @@
 
         //Pregunta 24 - Placer
 
-        $('input[name=placer]').change(function(){
+        $('input[name=placer]').on().change(function(){
             //Obtener el tipo de lección 
             placer = $(this).val();
             if(placer == "yes"){
@@ -1238,7 +1238,7 @@
 
         //Pregunta 25 - Placer
 
-        $('input[name=vomitar]').change(function(){
+        $('input[name=vomitar]').on().change(function(){
             //Obtener el tipo de lección 
             vomitar = $(this).val();
             if(vomitar == "yes"){
@@ -1251,7 +1251,7 @@
 
         //Pregunta 26 - Suicidio
 
-        $('input[name=suicidio]').change(function(){
+        $('input[name=suicidio]').on().change(function(){
             //Obtener el tipo de lección 
             suicidio = $(this).val();
             if(suicidio == "yes"){
@@ -1264,7 +1264,7 @@
 
         //Pregunta 28 - Dolor en los músculos
 
-        $('input[name=dolor_musculos]').change(function(){
+        $('input[name=dolor_musculos]').on().change(function(){
             //Obtener el tipo de lección 
             dolor_musculos = $(this).val();
             if(dolor_musculos == "yes"){
@@ -1276,7 +1276,7 @@
 
         //Pregunta 29 - Hacer aseo
 
-        $('input[name=aseo]').change(function(){
+        $('input[name=aseo]').on().change(function(){
             //Obtener el tipo de lección 
             aseo = $(this).val();
             if(aseo == "yes"){
@@ -1288,7 +1288,7 @@
 
         //Pregunta 30 - Estado de ánimo
 
-        $('input[name=animo]').change(function(){
+        $('input[name=animo]').on().change(function(){
             //Obtener el tipo de lección 
             animo = $(this).val();
             if(animo == "yes"){
