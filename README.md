@@ -1,4 +1,8 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
+Desarrollado en Laravel
+
+<p align="center">
+	<img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400">
+</p>
 
 <p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
@@ -70,3 +74,14 @@ Abrir la aplicación en el navegador o ejecutar
 <p align="center">
 	<img src="https://github.com/BrayanAngaritaR/depression_app/blob/master/public/readme/anemia.png">
 </p>
+
+## Diagnosticar Hipotiroidismo
+
+<p align="center">
+	<img src="https://github.com/BrayanAngaritaR/depression_app/blob/master/public/readme/hipotiroidismo.png">
+</p>
+
+## Diagnosticar las otras enfermedades
+
+El diagrama con todas las enfermedades y sus síntomas se pueden encontrar [en este enlace](https://onodo.org/visualizations/107143)
+

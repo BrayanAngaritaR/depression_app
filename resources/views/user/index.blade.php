@@ -967,9 +967,9 @@
 
             if(debilidad == "yes"){
                 $('#afectaciones').show();
+                $('#frio').show();
             } else {
                 $('#dolores_musculares').show();
-                //$('#dolores_garganta').show(); //Pregunta 18
                 $('#ritmo').show(); //Pregunta 18
             }
 
@@ -985,17 +985,16 @@
                 $('#dolor_pecho').show();
                 $('#dolores_garganta').show(); //Pregunta 18
             }
-            $('#').show();
         });
 
         //Pregunta 3
         $('input[name=dolor_cabeza]').on().change(function(){
             //Obtener el tipo de lección 
-            estrenimiento = $(this).val();
+            dolor_cabeza = $(this).val();
 
-            if(debilidad == "yes"){
+            if(dolor_cabeza == "yes"){
                 $('#dolor_pecho').show();
-                $('#suicidio').show(); // Pregunta 26
+                $('#estrenimiento').show();
             } else {
                 $('#animo').show(); //Pregunta 30
             }
@@ -1025,7 +1024,7 @@
             //Obtener el tipo de lección 
             agitado = $(this).val();
             if(debilidad == "yes"){
-                $('#validar').show();
+                
                 $('#cansancio').show();
             } else {
                 $('#frecuencia_dolor_de_cabeza').show();
@@ -1066,17 +1065,17 @@
                 $('#dolores_garganta').show();
             } else {
                 $('#frecuencia_dolor_de_cabeza').show();
-                                $('#dolores_garganta').show();
+                $('#estrenimiento').show();
             }
         });
 
         //Pregunta 10
 
-        $('input[name=estrenimiento]').on().change(function(){
+        $('input[name=dolor_cabeza]').on().change(function(){
             //Obtener el tipo de lección 
             estrenimiento = $(this).val();
             if(estrenimiento == "yes"){
-                $('#validar').show();
+                
             } else {
                 $('#vomitar').show(); //Pregunta 29
             }
@@ -1126,7 +1125,7 @@
             //Obtener el tipo de lección 
             fisico = $(this).val();
             if(fisico == "yes"){
-                $('#validar').show(); //Decir que sufre de DISTIMIA
+                 //Decir que sufre de DISTIMIA
             } else {
                 $('#culpa').show();
             }
@@ -1162,7 +1161,7 @@
             //Obtener el tipo de lección 
             ritmo = $(this).val();
             if(ritmo == "yes"){
-                $('#validar').show(); // TRASTORNO BIPOLAR:
+                 // TRASTORNO BIPOLAR:
             } else {
                 $('#dolores_garganta').show(); //Pregunta 18
             }
@@ -1201,7 +1200,7 @@
             //Obtener el tipo de lección 
             mantener_concentracion = $(this).val();
             if(mantener_concentracion == "yes"){
-                $('#validar').show(); // Diagnosticar Encefalomielitis
+                 // Diagnosticar Encefalomielitis
                 $('#hiperactividad').show(); //Pregunta 16
 
             } else {
@@ -1256,7 +1255,7 @@
             //Obtener el tipo de lección 
             vomitar = $(this).val();
             if(vomitar == "yes"){
-                $('#validar').show(); // Diagonostica Hipotiroidismo
+                 // Diagonostica Hipotiroidismo
 
             } else {
                 $('#cansancio').show(); // Pregunta 11
@@ -1269,7 +1268,7 @@
             //Obtener el tipo de lección 
             suicidio = $(this).val();
             if(suicidio == "yes"){
-                $('#validar').show(); // Decir que tiene depresión
+                 // Decir que tiene depresión
 
             } else {
                 $('#vomitar').show(); //Pregunta 29
@@ -1306,7 +1305,7 @@
             //Obtener el tipo de lección 
             animo = $(this).val();
             if(animo == "yes"){
-                $('#validar').show(); //Depresión
+                 //Depresión
             } else {
                 $('#suicidio').show(); //Pregunta 26
             }
