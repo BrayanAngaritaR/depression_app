@@ -969,7 +969,8 @@
                 $('#afectaciones').show();
             } else {
                 $('#dolores_musculares').show();
-                $('#dolores_garganta').show(); //Pregunta 18
+                //$('#dolores_garganta').show(); //Pregunta 18
+                $('#ritmo').show(); //Pregunta 18
             }
 
         });
@@ -1307,6 +1308,33 @@
                 $('#suicidio').show(); //Pregunta 26
             }
         });
+
+
+
+        $('input[name=ritmo]').on().change(function(){
+            //Obtener el tipo de lección 
+            ritmo = $(this).val();
+            if(ritmo == "yes"){
+                $('#agresion').show(); //Depresión
+            } else {
+                $('#suicidio').show(); //Pregunta 26
+            }
+        });
+
+        $('input[name=agresion]').on().change(function(){
+            //Obtener el tipo de lección 
+            agresion = $(this).val();
+            if(agresion == "yes"){
+                $('#culpa').show(); //Depresión
+            } else {
+                $('#fisico').show(); //Pregunta 26
+            }
+        });
+
+
+
+
+ 
     })
     
 </script>

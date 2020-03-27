@@ -216,14 +216,12 @@ class ResultController extends Controller
         {
             $encefalomielitis += 1;
             $anemia += 1;
-            $encefalomielitis += 1;
         }
 
         if ($frecuencia_dolor_de_cabeza == "yes")
         {
             $encefalomielitis += 1;
             $anemia += 1;
-            $encefalomielitis += 1;
         }
 
         if ($dolor_pecho == "yes")
