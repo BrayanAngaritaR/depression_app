@@ -53,5 +53,8 @@ Abrir la aplicación en el navegador o ejecutar
 
 `php artisan serve`
 
+## Diagnosticar Trastorno de bipolaridad
 
-
+<p align="center">
+	<img src="/readme/bipolar.PNG">
+</p>
