@@ -1053,6 +1053,8 @@
                 $('#latidos').show();
             } else {
                 $('#frecuencia_dolor_de_cabeza').show();
+
+
             }
         });
 
@@ -1061,9 +1063,10 @@
             //Obtener el tipo de lección 
             dolores_musculares = $(this).val();
             if(dolores_musculares == "yes"){
-                $('#validar').show();
+                $('#dolores_garganta').show();
             } else {
                 $('#frecuencia_dolor_de_cabeza').show();
+                                $('#dolores_garganta').show();
             }
         });
 

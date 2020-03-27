@@ -56,5 +56,17 @@ Abrir la aplicación en el navegador o ejecutar
 ## Diagnosticar Trastorno de bipolaridad
 
 <p align="center">
-	<img src="/readme/bipolar.PNG">
+	<img src="https://github.com/BrayanAngaritaR/depression_app/blob/master/public/readme/bipolar.png">
+</p>
+
+## Diagnosticar Encefalomielitis
+
+<p align="center">
+	<img src="https://github.com/BrayanAngaritaR/depression_app/blob/master/public/readme/encefalomielitis.png">
+</p>
+
+## Diagnosticar Anemia
+
+<p align="center">
+	<img src="https://github.com/BrayanAngaritaR/depression_app/blob/master/public/readme/anemia.png">
 </p>
